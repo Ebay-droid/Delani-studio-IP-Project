@@ -1,3 +1,27 @@
-.container{
+.container-fluid{
   text-align: center;
+
+}
+
+.header{
+  background-image: url(../images/h_img.jpg);
+  background-size: cover;
+  color: aliceblue;
+}
+
+.service{
+  background-image: url(../images/s_image.jpg);
+  color: aliceblue;
+}
+
+.box{
+  width: 1340px;
+  height: 500px;
+  padding: 50px;
+}
+
+.box2{
+  width: 1340px;
+  height: 400px;
+  padding: 50px;
 }
