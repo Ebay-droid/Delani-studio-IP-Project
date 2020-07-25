@@ -17,13 +17,13 @@
 .box{
   width: 1240px;
   height: 500px;
-  padding: 50px;
+  padding: 100px;
 }
 
 .box2{
   width: 1240px;
   height: 400px;
-  padding: 50px;
+  padding: 100px;
 }
 
 .contact{
@@ -40,9 +40,23 @@
 }
 
 body{
- margin: 0px; 
+ margin: 0px;
+ padding: 0px;
 }
 
 #h2we-do{
   height: 100px;
+}
+
+#myTextarea{
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px aliceblue solid;
+
+}
+
+.input{
+  background-color: transparent;
+  color: aliceblue;
+  border: 1px aliceblue solid;
 }
