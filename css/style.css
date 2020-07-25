@@ -1,4 +1,4 @@
-.container-fluid{
+.container{
   text-align: center;
 
 }
@@ -28,52 +28,23 @@
 
 .contact{
   background-image: url(../images/c_image.jpg);
-  color: aliceblue;
+  
   background-color: transparent;
   
 }
 
-#textbox{
-  grid-template-rows: "5";
-}
-
-#design{
-  width: 200px;
-  height: 200px;
-  padding: 20px;
+.work{
+  size: inherit;
+  padding: 10px;
   
 }
-
-#dev{
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-
-}
-
-#prod{
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-}
-
-.box3{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.port{
-  display: flex;
-  flex-wrap: wrap;
-}
-.work{
- padding-right: 5px;
- padding-bottom: 50px;
- width: 200px;
-}
-
+/**
 #myTextarea{
   background-color: transparent;
-  color: aliceblue;
+  
 }
+
+input{
+  background-color: transparent;
+}
+*/
