@@ -29,6 +29,8 @@
 .contact{
   background-image: url(../images/c_image.jpg);
   color: aliceblue;
+  background-color: transparent;
+  
 }
 
 #textbox{
@@ -67,6 +69,11 @@
 }
 .work{
  padding-right: 5px;
- padding-bottom: 10px;
- width: 400px;
+ padding-bottom: 50px;
+ width: 200px;
+}
+
+#myTextarea{
+  background-color: transparent;
+  color: aliceblue;
 }
