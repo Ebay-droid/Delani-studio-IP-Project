@@ -63,12 +63,27 @@ body{
 
 .des_p{
   display: none;
+  cursor: pointer;
 }
 
 .dev_p{
   display: none;
+  cursor: pointer;
 }
 
 .prod_p{
   display: none;
+  cursor: pointer;
+}
+
+#design{
+  cursor: pointer;
+}
+
+#dev{
+  cursor: pointer;
+}
+
+#prod{
+  cursor: pointer;
 }
