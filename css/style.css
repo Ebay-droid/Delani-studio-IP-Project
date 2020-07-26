@@ -1,5 +1,7 @@
 .container{
   text-align: center;
+  padding-left: 10px;
+  margin: 0px;
 
 }
 
@@ -15,13 +17,13 @@
 }
 
 .box{
-  width: 1240px;
+  width: 1270px;
   height: 500px;
   padding: 100px;
 }
 
 .box2{
-  width: 1240px;
+  width: 1270px;
   height: 400px;
   padding: 100px;
 }
@@ -33,9 +35,14 @@
   
 }
 
+.port{
+  cursor: pointer;
+}
+
 .work{
   size: inherit;
   padding: 10px;
+  padding-left: 10px;
   
 }
 
@@ -64,16 +71,19 @@ body{
 .des_p{
   display: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .dev_p{
   display: none;
   cursor: pointer;
+  text-align: center;
 }
 
 .prod_p{
   display: none;
   cursor: pointer;
+  text-align: center;
 }
 
 #design{

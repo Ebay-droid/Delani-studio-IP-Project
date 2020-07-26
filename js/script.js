@@ -22,5 +22,20 @@ $(document).ready(function () {
     $('.prod_p').click(function () {
       $('#prod').toggle();
       $('.prod_p').toggle();
-    })
+    });
+
+    $(".port div").hover(function(){
+      $(this).find('img').css("background-color", "white");
+      }, function(){
+      $(this).find('img').css("background-color", "inherit");
+    });
+   
 });
+
+function myForm() {
+  var name = document.getElementById("name").value
+  var email =document.getElementById("email").value
+  var message =document.getElementById("myTextarea").value
+    alert (name + ' ' + 'your message has beeen received')
+  
+  }

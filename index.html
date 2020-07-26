@@ -11,15 +11,11 @@
 </head>
 <body>
   <div class="container">
-    <div>
-      <p>startpoint</p>
-    </div>
-
     <div class="header box">
       <img src="images/logo.png" alt="logo">
       <h1>WELCOME <br> TO DELANI STUDIO</h1>
-      <p>PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p> 
-      <img src="images/mouse_click.png" alt="mouse_click" id="mouse">
+      <p>PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p> <br><br>
+      <img  src="images/mouse_click.png" alt="mouse_click" id="mouse">
     </div>
 
     <div>
@@ -70,7 +66,7 @@
     
     <div>
       <h2>PORTFOLIO</h2><br>
-      <div class="row">
+      <div class="port row">
         <div class=" col col-md-3 work">
           <img class="img-fluid" src="images/work1.jpg" alt="work1">
         </div>    
@@ -101,9 +97,10 @@
     <div class="contact box">
       <h2>CONTACT US</h2>
       <form action="index.html">
-        <input class="input" type="text" placeholder="Name...">
-        <input class="input" type="email" placeholder="Email..."><br>
-        <textarea name="text" id="myTextarea" cols="70" rows="10" placeholder="Enter text here...."></textarea>
+        <input class="input" id="name" type="text" placeholder="Name..." value="" required>
+        <input class="input" id="email" type="email" placeholder="Email..." value="" required><br>
+        <textarea name="text" id="myTextarea" cols="70" rows="10" placeholder="Enter text here...." required></textarea><br>
+        <button class="btn bg-primary" onclick="myForm()">submit</button>
       </form>
     </div>
 
