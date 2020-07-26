@@ -60,3 +60,15 @@ body{
   color: aliceblue;
   border: 1px aliceblue solid;
 }
+
+.des_p{
+  display: none;
+}
+
+.dev_p{
+  display: none;
+}
+
+.prod_p{
+  display: none;
+}
