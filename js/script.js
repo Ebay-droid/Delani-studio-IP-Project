@@ -33,9 +33,10 @@ $(document).ready(function () {
 });
 
 function myForm() {
-  var name = document.getElementById("name").value
-  var email =document.getElementById("email").value
-  var message =document.getElementById("myTextarea").value
-    alert (name + ' ' + 'your message has beeen received')
+  var name = document.getElementById("name").value;
+  var email =document.getElementById("email").value;
+  var message =document.getElementById("myTextarea").value;
+
+   alert (name + ' ' + 'your message has beeen received')
   
   }
