@@ -8,5 +8,7 @@ This is a project  to recreate the  delani studio website, using the learnt skil
 
 ### Website :
  https://ebay-droid.github.io/Delani-studio-IP-Project/
- 
+
+ ### LICENCE :
+ https://raw.githubusercontent.com/Ebay-droid/Delani-studio-IP-Project/master/LICENSE
 
