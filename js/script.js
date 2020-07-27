@@ -25,41 +25,6 @@ $(document).ready(function () {
     });
 
     //$('.img-fluid').css('opacity', 0.4)
-    $('.im1').hover(function () {
-      $('#image1').css({"opacity":"30%","transition":"2s"});
-      $('#w1').show();
-    },
-    function () {
-      $('#image').css({"opacity":"100%"});
-      $('#w1').hide();
-    });
-
-    $('.im1').hover(function () {
-      $('#image1').css({"opacity":"30%","transition":"2s"});
-      $('#w1').show();
-    },
-    function () {
-      $('#image').css({"opacity":"100%"});
-      $('#w1').hide();
-    });
-
-    $('.im1').hover(function () {
-      $('#image1').css({"opacity":"30%","transition":"2s"});
-      $('#w1').show();
-    },
-    function () {
-      $('#image').css({"opacity":"100%"});
-      $('#w1').hide();
-    });
-
-    $('.im1').hover(function () {
-      $('#image1').css({"opacity":"30%","transition":"2s"});
-      $('#w1').show();
-    },
-    function () {
-      $('#image').css({"opacity":"100%"});
-      $('#w1').hide();
-    });
 
     $('.im1').hover(function () {
       $('#image1').css({"opacity":"30%","transition":"2s"});
@@ -106,7 +71,7 @@ $(document).ready(function () {
       $('#w5').hide();
     });
 
-    $('.im1').hover(function () {
+    $('.im6').hover(function () {
       $('#image6').css({"opacity":"30%","transition":"2s"});
       $('#w6').show();
     },
@@ -115,7 +80,7 @@ $(document).ready(function () {
       $('#w6').hide();
     });
 
-    $('.im6').hover(function () {
+    $('.im7').hover(function () {
       $('#image7').css({"opacity":"30%","transition":"2s"});
       $('#w7').show();
     },
