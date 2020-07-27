@@ -24,10 +24,10 @@ $(document).ready(function () {
       $('.prod_p').toggle();
     });
 
-    $(".div .port").hover(function(){
+    $("div .port").hover(function(){
       $(this).find('.work').css("background-color", "white");
       }, function(){
-      $(this).find('img').css("background-color", "inherit");
+      $(this).find('work').css("background-color", "inherit");
     });
    
 });
