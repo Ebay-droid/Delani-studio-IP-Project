@@ -24,8 +24,8 @@ $(document).ready(function () {
       $('.prod_p').toggle();
     });
 
-    $(".port div").hover(function(){
-      $(this).find('img').css("background-color", "white");
+    $(".div .port").hover(function(){
+      $(this).find('.work').css("background-color", "white");
       }, function(){
       $(this).find('img').css("background-color", "inherit");
     });
