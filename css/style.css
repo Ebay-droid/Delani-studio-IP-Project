@@ -132,23 +132,27 @@ body{
       height: 450px;
       padding: 00px;  
 }
-#design{
-  padding-bottom: 10px;
-  width: 50px;
-  columns: 3;
-}
+    #design{
+      padding-bottom: 50px;
+      width: 50px;
+    }    
 
-#dev{
-  padding-bottom: 10px;
-  width: 50px;
-}
+    #dev{
+      padding-bottom: 50px;
+      width: 50px;
+      
+    }
 
-#prod{
-  padding-bottom: 10px;
-  width: 50px;
-}
-.port{
-  width: 150px;
-}
+    #prod{
+      padding-bottom: 50px;
+      width: 50px;
+      
+    }
+    .port{
+      width: 150px;
+      display: inherit;
+      columns: initial 2;
+    }
 
+    
 }
